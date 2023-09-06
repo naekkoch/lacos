@@ -34,7 +34,7 @@ if (numeros.includes(0)) {
     exercicio 3: 5 *****
 
 exercicio 1 escrita:
-*/
+
 const animal = prompt("Quantos bichinhos de estimação vc tem?");
 if (animal <= 0) {
   console.log("Que pena!Você pode adotar um pet");
@@ -46,12 +46,59 @@ if (animal <= 0) {
   }
   console.log(nomes);
 }
-/*
-exercicio 2 escrita:
 
+exercicio 2 escrita:
+*/
 const valorOriginal = [0, 1, 2 , 3 ,4 ,5 ,6, 7 ,8 ,10]
 const valor = ()=> {
 for(let valor of valorOriginal){
 console.log(valorOriginal)}
-const valorMaximo = Number(valorMaximo > valorOriginal)}
-*/
+}
+//b
+vezesDez = () => {
+  for(let numero of valorOriginal){
+        console.log(numero * 10)
+    }
+  }
+//c)
+vezesDez()
+pares = () => {
+  for(let numero of valorOriginal){
+    if(numero % 2 == 0){
+      console.log(numero)
+    }
+  }
+}
+pares()  
+//d)
+let index = []
+novo = () => {
+  for(let numero of valorOriginal){
+      let frase = ("O elemento do index", numero, "é", valorOriginal.indexOf(numero)) }
+      index.push(frase)
+  
+  }
+
+  console.log(index)
+
+
+//e)
+const maiorValor = 10;
+for (let i = 0; i < valorOriginal.length; i++) {
+  let valorAtual = valorOriginal[i];
+
+  if (valorAtual >= maiorValor) {
+    maiorValor == valorAtual;
+  }
+}
+
+const menorValor = 0;
+for (let i = 10; i > valorOriginal.length; i--) {
+  let valorAtual = valorOriginal[i];
+
+  if (valorAtual <= menorValor) {
+    menorValor == valorAtual;
+  }
+}
+
+console.log("O maior valor é", maiorValor, "e o menor valor é", menorValor)
